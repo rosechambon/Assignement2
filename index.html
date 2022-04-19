@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel= "stylesheet" href="style1.css" >
+        <meta charset="utf-8">
+        <title>Nike drop</title>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+    <header>
+        <img src="nikelogo.jpg"
+                class="round"
+                alt="logo Nike"><br>
+
+
+        <form method="post" name="coordonnees" class="sticky">
+          
+            <input type="text" id="name" name="user_name"
+                placeholder="Dupont"
+                required>
+                        
+            <input type="text"  id="prenom" name="user_prenom" 
+                placeholder="Camille"
+                required>
+         
+             <input type="email" id="email"
+                placeholder="dupont.camille@efrei.net"
+                 required>
+    
+            <select name="roles" id="role-select">
+                <option value="Teacher">Teacher</option>
+                <option value="Student ">Student</option>
+            </select>
+
+            <div>
+            <input type="button" value="Add" id="Abutton" >
+            <input type="button" value="Delete" id="Sbutton" >
+            </div>
+
+             
+        </form>
+    </header>
+    <br>
+    <main>
+        <table>
+            <tr class="no">
+                <th>First Name</th>
+                <th>Last Nanme</th>
+                <th>Email</th>
+                <th>Job</th>
+            </tr>
+        </table>
+    </main>
+    
+    <span>0</span> 
+   
+    <script src="javascript.js"></script>
+    </body>
+</html>
